@@ -1,0 +1,257 @@
+ /* PAGE STYLING */
+
+html {
+	font-family: 'Noto Sans', sans-serif;
+	background-color: black; 
+	text-align: center;
+}
+
+body {
+ display: absolute; 
+
+}
+
+h1 {
+	font-size: 50px;
+	display: inline-block;
+}
+
+#landing{ 
+	display: auto;
+	margin: 30vh;
+	text-align: center;
+	font-size: 50px;
+	color: #696969; 
+	opacity: 1;
+  	transition: 1s opacity;
+ }
+
+img {
+	width: 100px;
+	height: 100px; 
+	margin-block-end: -30px;
+}
+
+p { 
+	display: inline-block;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+ /* TEXT STYLING */
+
+strong{
+	font-style: italic;
+	
+}
+
+#welcome { 
+	display: none; 
+	text-align: center; 
+	font-size: 40px;
+	color: #696969; 
+}
+
+#text { 
+	margin-top: 200px; 
+	margin-left: 400px;
+	margin-right: 400px;
+	font-size: 20px;
+
+}
+
+#paragraph { 
+	margin-top: 30px;
+	margin-left: 400px;
+	margin-right: 400px;
+	font-size: 16px;
+	text-align: left;
+	color: white;
+
+}
+
+.spacer{
+  height: 30px;
+}
+
+ /*ICON STYLING */
+.icon {
+  background-color: black; 
+  border: none; 
+  color: #696969; 
+  padding: 12px 16px; 
+  font-size: 30px; 
+  cursor: pointer; 
+}
+
+
+.icon:focus {
+  background-color: none;
+  outline: none;
+  border: none;
+}
+
+
+.icon:hover {
+  color: #d3d3d3; 
+}
+
+ /* BUTTON STYLING */
+#startSurvey {
+	text-align: center;
+	margin: 15%;
+	font-size: 16px;
+	color: #696969; 
+	display: relative;
+}
+
+.btn {
+	margin-top: 20px;
+	margin-left: 115px;
+	background-color: white;
+	border: 1px solid #d3d3d3;
+	color: #58A45B; 
+ 	padding: 15px 50px;
+	font-size: 20px; 
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	border-radius: 6px;
+	outline: none;
+
+}
+
+.btn:hover {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+ /* FORM STYLING */
+#form {
+	text-align: center;
+	margin: 5%;
+	font-size: 16px;
+	color: #696969; 
+	display: relative;
+	padding-left: 60vh;
+	padding-right: 60vh;
+}
+
+
+input{
+line-height: 10px;
+
+}
+
+
+form{ 
+
+text-align: left;
+ }
+
+#container-form{
+text-align: center;
+}
+
+ /* CANVAS STYLING */
+
+canvas {
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
+
+object { 
+	width: 300px;
+	height: 700px; 
+	position: relative;
+	padding: 10px;
+	text-align: center;
+
+ }
+
+#container{ 
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+}
+
+#object { 
+	display: inline-flex;
+	
+ }
+
+
+
+ /* HAMBURGER ICON STYLING */
+
+.hamburger-container{
+  float: right;
+  z-index: 20; 
+  position: relative;
+  padding-right: 7vw;
+}
+
+#top_bun, #meat, #bottom_bun{
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin:6px 0;
+  position: relative;
+  margin-right: 0vw;
+}
+
+.hamburger-container div{
+  transition: 0.4s;
+}
+
+/* OVERLAY STYLING */
+#overlay{
+  height:0vw;
+  width: 100vw;
+  position:fixed; 
+  z-index: 10; 
+  top: 0;
+  left: 0;
+  background-color: gray;
+  opacity: 0.9;
+  overflow-y: hidden; 
+  transition: 0.4s;
+}
+
+
+#overlay nav{
+  margin-top: 25vh;
+}
+
+
+#overlay li{
+  list-style-type: none;
+  display: block;
+  opacity: 100%;
+  text-align: center;
+}
+
+#overlay li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+p{
+  font-weight: 300;
+  font-size: 18px;
+}
+
+#hero {
+  width: 80vw;
+  margin-left: 10vw;
+}
+
+#comfort{
+  text-align: center;
+}
