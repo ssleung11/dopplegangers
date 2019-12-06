@@ -54,6 +54,7 @@ strong{
 	text-align: center;
 	margin-left: 30%;
 	margin-right: 30%;
+	margin-top: 5%;
 
 }
 
@@ -130,8 +131,11 @@ object {
 .hamburger-container{
   float: right;
   z-index: 20; 
-  position: relative;
+  /*position: relative;*/
   padding-right: 7vw;
+  position: fixed;
+  top: 10px;
+  right: 20px;
 
 }
 
