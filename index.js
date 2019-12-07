@@ -8,7 +8,9 @@ let positionDict = {}
 
 for(let i = 0; i < positions.length; i ++) {
   const filename = positions[i].filename.replace(/\//g, '/');
+  //console.log(filename);
   const name = filename.replace('.jpg', '');
+
 
   //app.loader.add(name, "./resized/" + filename)
   //app.loader.add(name, filename)
@@ -53,8 +55,16 @@ app.loader.load((loader, resources) => {
     imageSprite.interactive = true;
 
     const name = key;
+    //const largename = filename.replace(/\//g, '/');
+    //const large = 
     imageSprite.on('click', () => {
      // alert("you clicked on " + name)
+      //var img = document.createElement('img')
+      //img.src = `LargePortraits/${}`;
+      //console.log(largename);
+      //document.getElementById('surprise').appendChild(img);
+
+
     });
 
     imageSprite.on('mouseover', () => {
